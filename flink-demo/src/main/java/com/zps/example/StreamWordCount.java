@@ -27,7 +27,8 @@ public class StreamWordCount {
 
         streamOperator.print();
 
+        
         //批处理不需要执行此步骤
-        env.execute("任务一");
+        env.execute("任务一"); //dev2
     }
 }
