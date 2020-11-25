@@ -26,14 +26,11 @@ public class StreamWordCount {
         }).keyBy(0).sum(1);
 
         streamOperator.print();
-
-
         //批处理不需要执行此步骤
 
         env.execute("任务一");  //dev1
 
         System.out.println("AAA");
-
 
         System.out.println("AAA");
 
