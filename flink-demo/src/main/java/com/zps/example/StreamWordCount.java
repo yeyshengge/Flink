@@ -28,9 +28,9 @@ public class StreamWordCount {
         streamOperator.print();
         //批处理不需要执行此步骤
         env.execute("任务一");
-        System.out.println("AAA");
         System.out.println("BBB");
-        System.out.println("CCC");
-        System.out.println("DDD");
+        System.out.println("BBB");
+        System.out.println("BBB");
+        System.out.println("BBB");
     }
 }
