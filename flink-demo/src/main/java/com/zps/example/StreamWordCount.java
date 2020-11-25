@@ -31,11 +31,8 @@ public class StreamWordCount {
         env.execute("任务一");  //dev1
 
         System.out.println("AAA");
-
         System.out.println("AAA");
-
         System.out.println("AAA");
-
         System.out.println("AAA");
     }
 }
