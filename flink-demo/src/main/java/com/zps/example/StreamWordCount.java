@@ -31,8 +31,8 @@ public class StreamWordCount {
         //批处理不需要执行此步骤
         env.execute("任务一");  //dev1
         System.out.println("AAA");
-        System.out.println("AAA");
-        System.out.println("AAA");
-        System.out.println("AAA");
+        System.out.println("BBB");
+        System.out.println("CCC");
+        System.out.println("DDD");
     }
 }
